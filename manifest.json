@@ -8,5 +8,6 @@
 	},
 	"permissions": [
 		"storage"
-	]
+	],
+	"content_security_policy": "script-src 'self' https://unpkg.com; object-src 'self'"
 }

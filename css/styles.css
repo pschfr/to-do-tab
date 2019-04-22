@@ -1,0 +1,23 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background: #222 no-repeat center/cover fixed;
+	margin: 0;
+}
+
+#background {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+#container {
+	position: absolute;
+}
